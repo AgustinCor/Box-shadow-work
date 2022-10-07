@@ -1,0 +1,63 @@
+body{
+  font-family: 'Tahoma';
+  background-image: url('background.jpg');
+  background-repeat:no-repeat ;
+  background-size: cover;
+  font-weight: 600;
+
+}
+
+form{
+  margin-top: 100px;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+
+form .scrol-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right:500px ;
+}
+
+form input{
+    margin:50px 0px 30px 50px;
+    width: 500px;
+}
+
+form .range-shadow5{
+  width: 50px;
+  margin-left: 300px;
+}
+
+form label{
+ margin-right: 300px;
+ color: #fff;
+}
+
+.square-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square{
+    background-color: #f00;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius:10px;
+    width: 200px;
+    height: 200px;
+}
+
+.square-container .box-info{
+  margin-top: 100px;
+  height: 100px;
+  width: 500px;
+  padding-top: 10px;
+  background-color: #bbb;
+  color: #000;
+  border-radius:20px;
+  text-align: center;
+}
